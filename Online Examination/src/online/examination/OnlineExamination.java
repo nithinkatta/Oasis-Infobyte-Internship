@@ -18,7 +18,7 @@ public class OnlineExamination {
         Connection con = null;
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql","phpmyadmin","PassWord123");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql","root","Nithin281");
             Statement st = con.createStatement();
         }
         catch(Exception e)
